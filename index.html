@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,900|Roboto:100,300,400,900&amp;subset=latin-ext" rel="stylesheet">
+    
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+
+    <!-- main style -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- responsive -->
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+    <!-- nav start -->
+    <!-- nav#main-nav>ul>li.list-item*4>a -->
+    <nav id="main-nav">
+        <label for="menu" class="toggle">Menu</label>
+        <input type="checkbox" id="menu">
+        
+        <ul>
+            <li class="list-item"><a href="#about">o mnie</a></li>
+            <li class="list-item"><a href="#skills">umiejetnosci</a></li>
+            <li class="list-item"><a href="">portfolio</a></li>
+            <li class="list-item"><a href="">kontakt</a></li>
+        </ul>
+    </nav>
+    <!-- nav end -->
+
+    <!-- header start -->
+    <!-- header#main-header>.header-inner>(h1{Marcin }>span{G})+h2{Front end developer} -->
+    <header id="main-header">
+        <div class="header-inner">
+            <h1>Marcin <span>G</span></h1>
+            <h2>Front end developer</h2>
+        </div>
+    </header>
+    <!-- header end -->
+
+    <!-- about section start -->
+    <!-- section#about>(h2{O }>span{mnie})+(figure>img)+p{Lorem}-->
+    <section id="about">
+        <h2>O <span>mnie</span></h2>
+        <figure>
+            <img src="img/jan-nowak.jpg" alt="Jan Nowak">
+        </figure>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim tempora nulla, iste. Cumque, perferendis officiis. Id temporibus iste, deleniti in ea culpa cum quos dolores iure, eligendi, molestias ullam omnis.</p>
+        <div class="clear"></div>
+    </section>
+    <!-- about section end -->
+    
+    <!-- skills section start -->
+    <!-- section#skills>(h2{Moje }>span{umiejętności}+p{lorem15})+figure*4>img+figcaption -->
+    <section id="skills">
+        <h2>Moje <span>umiejętności</span></h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis illum dolor quae quisquam, maiores perferendis.</p>
+        <figure>
+            <img src="icons/css3.png" alt="">
+            <figcaption>css3</figcaption>
+        </figure>
+        <figure>
+            <img src="icons/html5.png" alt="">
+            <figcaption>html5</figcaption>
+        </figure>
+        <figure>
+            <img src="icons/jquery.png" alt="">
+            <figcaption>jquery</figcaption>
+        </figure>
+        <figure>
+            <img src="icons/js.png" alt="">
+            <figcaption>javascript</figcaption>
+        </figure>
+    </section>
+    
+    <!-- section portfolio -->
+    <!-- section#portfolio>(h2{Moje }>span{portfolio})+.background#img1>.mask>.border>.content>h3{Lorem ipsum}+p{Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, animi?}+a>i.fa.fa-chain.fa-2x-->
+    <section id="portfolio">
+        <h2>Moje <span>portfolio</span></h2>
+        <div class="background" id="img1">
+            <div class="mask">
+                <div class="border">
+                    <div class="content">
+                        <h3>Lorem ipsum</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, animi?</p>
+                        <a href=""><i class="fa fa-chain fa-2x"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="background" id="img2">
+            <div class="mask">
+                <div class="border">
+                    <div class="content">
+                        <h3>Lorem ipsum</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, animi?</p>
+                        <a href=""><i class="fa fa-chain fa-2x"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="background" id="img3">
+            <div class="mask">
+                <div class="border">
+                    <div class="content">
+                        <h3>Lorem ipsum</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, animi?</p>
+                        <a href=""><i class="fa fa-chain fa-2x"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </section>
+    
+    <!-- section contact -->
+    <!-- section#contact>(.contact-inner>(h2{Marcin }>span{G})+(address>a)+.social-media>a*4>i.fa.fa-2x)+.contact-inner>form>input*2+textarea+input[type=submit] -->
+    <section id="contact">
+        <div class="contact-inner">
+            <h2>Marcin <span>G</span></h2>
+            <address>
+            ul. Mostowa 6/13 <br>
+            31-061 Kraków <br><br>
+            tel: 606 74 57 59 <br>
+            email:<a href="">akademia108@krakow.pl</a>
+            </address>
+            <div class="social-media">
+                <a href=""><i class="fa fa-facebook fa-2x"></i></a>
+                <a href=""><i class="fa fa-google-plus fa-2x"></i></a>
+                <a href=""><i class="fa fa-twitter fa-2x"></i></a>
+                <a href=""><i class="fa fa-linkedin fa-2x"></i></a>
+            </div>
+        </div>
+        <div class="contact-inner">
+            <form action="">
+                <input type="text">
+                <input type="text">
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+                <input type="submit">
+            </form>
+        </div>
+        <div class="clear"></div>
+    </section>
+    
+    <!-- footer>p{Copyrights &copy; M G} -->
+    <footer>
+        <p>Copyrights &copy; M G</p>
+    </footer>
+</body>
+
+</html>
